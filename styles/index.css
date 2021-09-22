@@ -16,7 +16,7 @@ h2 {
 header {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#6C3E8A, #3E284D);
+    background: linear-gradient(#6C3E8A, #341C5E);
 }
 
 .up-header {
@@ -41,7 +41,7 @@ header {
 }
 
 .up-header ul li {
-    margin: 0px 20px;
+    margin: 0px 60px;
 }
 
 .up-header ul li a {
@@ -72,3 +72,57 @@ header {
     color: white;
 }
 
+.curve {
+    margin-bottom: -10px;
+
+}
+
+.content-up {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 200px;
+    padding: 80px 0px 0px 80px;
+}
+
+.content-up h1 {
+    color: #FBA82E;
+    margin-bottom: 80px;
+}
+
+.content-up p {
+    color: #ADADAD;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.content-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6C3E8A;
+    padding: 0px 0px 0px 100px;
+    margin: 0;
+}
+
+.content-down img {
+    width: 700px;
+}
+
+.content-down ul {
+    margin-top: 200px;
+}
+
+.content-down ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.content-down ul li h2 {
+    margin-left: 40px;
+}
+
+.content-down h2 {
+    color: white;
+}
