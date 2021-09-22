@@ -86,7 +86,7 @@ header {
 }
 
 .content-up h1 {
-    color: #FBA82E;
+    color: #FD951A;
     margin-bottom: 80px;
 }
 
@@ -125,4 +125,48 @@ header {
 
 .content-down h2 {
     color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #FD951A;
+    padding: 40px 80px;
+}
+
+.formulario h2 {
+    font-size: 4em;
+}
+
+.formulario form input {
+    height: 30px;
+    font-size: 40px;
+    border-style: none;
+}
+
+.formulario form .text {
+    width: 30%;
+    margin: 20px 20px 0px 0px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 40px;
+}
+
+.formulario form .button {
+    height: 55px;
+    width: 200px;
+    background-color: #5B2482;
+    color: #fff;
+    padding: 0px 0px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #6C3E8A;
+    padding: 60px;
 }
