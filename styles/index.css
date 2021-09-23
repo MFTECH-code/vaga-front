@@ -147,7 +147,7 @@ header {
 }
 
 .formulario form .text {
-    width: 30%;
+    width: 500px;
     margin: 20px 20px 0px 0px;
     border-radius: 10px;
     padding: 10px 0px 10px 40px;
@@ -169,4 +169,48 @@ footer {
     color: #fff;
     background-color: #6C3E8A;
     padding: 60px;
+}
+
+@media (max-width: 1050px)
+{
+    .up-header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .up-header ul li {
+        margin-top: 20px;
+    }
+
+    .down-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 80px 0px;
+    }
+
+    .down-header .header-img img {
+        width: 80%;
+        margin: 0;
+    }
+
+    .header-text {
+        margin-top: 40px;
+    }
+
+    .content-down img {
+        display: none;
+    }
+
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario form .button {
+        margin-top: 40px;
+    }
 }
