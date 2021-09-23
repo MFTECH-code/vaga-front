@@ -72,10 +72,11 @@
     </section>
     <section class="formulario">
         <h2>Quer conhecer mais sobre a Neovision?</h2>
-        <form action="https://85k7bv04na.execute-api.us-east-1.amazonaws.com/dev/register" method="post">
+        <script src="./js/post.js"></script>
+        <form onsubmit="cadastroUsuario()">
             <input class="text" id="nome" type="text" placeholder="Nome">
             <input class="text" id="email" type="text" placeholder="E-mail">
-            <input class="button" type="submit" value="Enviar">
+            <button class="button" type="submit">Enviar</button>
         </form>
     </section>
     <footer>
